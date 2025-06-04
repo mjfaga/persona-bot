@@ -1,0 +1,16 @@
+{
+  "name": "slack-bot",
+  "version": "1.0.0",
+  "description": "A simple Slack bot to interact with OpenAI API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@slack/bolt": "^3.7.0",
+    "dotenv": "^16.0.3",
+    "openai": "^5.1.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
